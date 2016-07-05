@@ -24,7 +24,6 @@
             type = 'lg';
         }
 
-        console.log(type);
         that.each(function () {
             var item = $(this)
                 , imgUrl = (typeof item.data('lzbg-' + type) !== 'undefined') ? item.data('lzbg-' + type) : item.data('lzbg');
