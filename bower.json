@@ -1,0 +1,27 @@
+{
+  "name": "jquery-lazysizebg",
+  "homepage": "https://github.com/philipdbrown/lazysizebg",
+  "author": {
+    "name": "Philip Brown",
+    "url": "http://www.philipdbrown.com"
+  },
+  "description": "Lazy load small, medium, large background images.",
+  "main": "jquery.lazysizebg.js",
+  "keywords": [
+    "Lazy",
+    "Load",
+    "jQuery",
+    "Background",
+    "Image",
+    "Multiple",
+    "Sizes"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "/examples"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
