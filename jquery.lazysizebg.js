@@ -28,7 +28,7 @@
             var item = $(this)
                 , imgUrl = (typeof item.data('lzbg-' + type) !== 'undefined') ? item.data('lzbg-' + type) : item.data('lzbg');
             if (typeof imgUrl !== 'undefined' && imgUrl) {
-                item.attr("style", "background-image: url('" + imgUrl + "');");
+            	item.css("background-image", "url('" + imgUrl + "')");
             }
         });
     };
